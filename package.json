@@ -1,8 +1,16 @@
 {
   "name": "login",
-  "version": "0.0.1",
-  "peerDependencies": {
+  "version": "0.0.3",
+  "bugs": "https://github.com/influxiq1/login-lib/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/influxiq1/login-lib.git"
+  },
+  "devDependencies": {
     "@angular/common": "^7.2.0",
-    "@angular/core": "^7.2.0"
+    "@angular/core": "^7.2.0",
+    "@angular/material":"latest",
+     "@angular/cdk":"latest",
+      "@angular/animations":"latest"
   }
 }

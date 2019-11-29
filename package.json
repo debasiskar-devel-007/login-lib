@@ -1,16 +1,17 @@
 {
-  "name": "login",
-  "version": "0.0.3",
-  "bugs": "https://github.com/influxiq1/login-lib/issues",
+  "name": "login-lib-influxiq",
+  "version": "0.0.7",
+  "bugs": "https://github.com/debasiskar-devel-007/login-lib/issues",
   "repository": {
     "type": "git",
-    "url": "https://github.com/influxiq1/login-lib.git"
+    "url": "https://github.com/debasiskar-devel-007/login-lib.git"
   },
   "devDependencies": {
     "@angular/common": "^7.2.0",
     "@angular/core": "^7.2.0",
-    "@angular/material":"latest",
-     "@angular/cdk":"latest",
-      "@angular/animations":"latest"
+    "@angular/material":"^7.3.7 ",
+     "@angular/cdk":"~7.3.7",
+      "@angular/animations":"~7.3.7",
+      "ngx-cookie-service": "^2.2.0"
   }
 }

@@ -1,0 +1,13 @@
+
+<span style="text-align: center"  *ngIf="data.Url != ''" >
+  <img style="max-width: 100%; text-align: center" [src]="data.Url">
+</span>
+
+<div mat-dialog-content>
+  <p *ngIf="data.value.length <= 7">Thanks! your account has been successfully created</p>
+  <p *ngIf="data.value.length >= 8">{{data.value}}</p>
+  
+</div>
+<div mat-dialog-actions>
+  <button mat-button [mat-dialog-close]="" cdkFocusInitial>Ok</button>
+</div>

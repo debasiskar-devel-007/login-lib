@@ -1,0 +1,11 @@
+<!-- <h1 mat-dialog-title>Hi {{data.name}}</h1> -->
+<div mat-dialog-content>
+  <h2>{{data.name}}</h2>
+  
+  <h3 *ngIf="data.value.length <= 7">Thanks! your account has been successfully created</h3>
+  <h4 *ngIf="data.value.length <= 7">Please check your inbox a code is sent on your registered email</h4>
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="onNoClick()">No Thanks</button>
+  <button mat-button >Ok</button>
+</div>
